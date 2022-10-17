@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    dockerimagename = "thetips4you/nodeapp"
+    dockerimagename = "shinefadi1122/nodeapp"
     dockerImage = ""
   }
 
@@ -43,5 +43,6 @@ pipeline {
         }
       }
     }
-
+}
   }
+}
